@@ -24,24 +24,12 @@ ul {
 }
 
 body {
-    background-color: var(--primery-white-color);
-    color: var(--primery-black-color);
+    background-color: var(--white-color);
+    color: var(--black-color);
 
     font-family: 'roboto', sans-serif;
 }
 
 .link {
     text-decoration: none;
-
-    transition: color 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-    &:hover,
-    &:focus {
-            color: var(--accent-blue-color);
-            text-decoration: none;
-        }
 }
-
-
-
